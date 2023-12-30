@@ -12,7 +12,7 @@ if [ ! -f $VIRTUALENV/bin/pip ]; then
 fi
 
 
-$VIRTUALENV/bin/pip innstal -r requirements.txt
+$VIRTUALENV/bin/pip install -r requirements.txt
 
 
 $VIRTUALENV/bin/python3 wsgi.py
